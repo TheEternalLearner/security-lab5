@@ -1,0 +1,12 @@
+.CustomerPage {
+    display: grid;
+    margin: 13vh auto;
+}
+
+.CustomerPage table {
+    justify-self: center;
+}
+
+.CustomerPage table * {
+    font-size: 2.4vmin;
+}

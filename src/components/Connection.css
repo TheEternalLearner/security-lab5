@@ -1,0 +1,48 @@
+.Connection {
+    display: inline-grid;
+    border: .45vmin solid #000;
+    margin: 13vh auto;
+}
+
+.Connection * {
+    width: 85%;
+    margin: auto;
+}
+
+.Connection h2 {
+    font-size: 4vmin;
+    margin: 1vmin auto;
+}
+
+.Connection form {
+    display: grid;
+    grid-template-rows: 1fr repeat(5,6.2vmin) 10fr;
+    width: 40vmin;
+    height: 50vmin;
+    justify-self: center;
+}
+
+.Connection .formInput {
+    height: 4vmin;
+    font-size: 3vmin;
+}
+
+.Connection .formP {
+    font-size: 3.8vmin;
+    margin: auto auto 0;
+    text-align: left;
+}
+
+.Connection .formSubmit {
+    font-size: 3.5vmin;
+    height: 6vmin;
+    width: 60%;
+    margin: auto;
+    border: .3vmin solid #000;
+    color: white;
+    background: #009e0f;
+}
+
+.Connection div {
+    font-size: 3vmin;
+}

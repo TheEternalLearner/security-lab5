@@ -1,0 +1,19 @@
+.Admin {
+    display: grid;
+    margin: 13vh auto;
+}
+
+.Admin table {
+    justify-self: center;
+}
+
+.Admin table * {
+    font-size: 2.4vmin;
+}
+
+.Admin .Submit {
+    margin: 4vmin auto;
+}
+
+
+
